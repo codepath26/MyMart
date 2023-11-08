@@ -10,7 +10,7 @@ const Cart = require('./models/cart');
 const CartItem = require('./models/cart-item');
 const Order = require('./models/order')
 const OrderItem = require('./models/order-item')
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.DB_PORT || 3000;
 const app = express();
 app.set('view engine', 'ejs');
 app.set('views', 'views');
